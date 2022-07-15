@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/nh-clone/static/css/main.de390f2f.css",
+    "main.js": "/nh-clone/static/js/main.8888fab0.js",
+    "static/js/787.43b640cb.chunk.js": "/nh-clone/static/js/787.43b640cb.chunk.js",
+    "static/media/rectangle.png": "/nh-clone/static/media/rectangle.4b6e782385d361b33db9.png",
+    "static/media/icomoon.svg?9cem88": "/nh-clone/static/media/icomoon.e9da3a9a1908d2dd4dea.svg",
+    "static/media/banner-1.jpg": "/nh-clone/static/media/banner-1.dd29ded6ba7e8dafca6a.jpg",
+    "static/media/icomoon.eot?9cem88": "/nh-clone/static/media/icomoon.84d9d0ab78945c97f029.eot",
+    "static/media/icomoon.woff?9cem88": "/nh-clone/static/media/icomoon.a13d7f4511793e074f27.woff",
+    "static/media/icomoon.ttf?9cem88": "/nh-clone/static/media/icomoon.60c6bc75d39b606b23e6.ttf",
+    "static/media/home-about-hosi.jpg": "/nh-clone/static/media/home-about-hosi.262f61759da402f1d7e9.jpg",
+    "static/media/logo-white.svg": "/nh-clone/static/media/logo-white.911f179ae6c68af2b0e38062846fbd34.svg",
+    "static/media/logo-brown.svg": "/nh-clone/static/media/logo-brown.afb579cc0806158a169b.svg",
+    "index.html": "/nh-clone/index.html",
+    "main.de390f2f.css.map": "/nh-clone/static/css/main.de390f2f.css.map",
+    "main.8888fab0.js.map": "/nh-clone/static/js/main.8888fab0.js.map",
+    "787.43b640cb.chunk.js.map": "/nh-clone/static/js/787.43b640cb.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.de390f2f.css",
+    "static/js/main.8888fab0.js"
+  ]
+}
