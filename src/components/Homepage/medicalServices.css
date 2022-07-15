@@ -1,0 +1,124 @@
+/*---------- MEDICAL SERVICES ----------*/
+.medical-services {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(12rem, 1fr));
+  border-top: 1px solid #c07515;
+  border-left: 1px solid #c07515;
+}
+.medical-services .block {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-bottom: 1px solid #c07515;
+  border-right: 1px solid #c07515;
+  padding: 2rem 1rem;
+  gap: 1.2rem;
+}
+.medical-services .block .icon {
+  color: #c07515;
+  font-size: 3.6rem;
+}
+.medical-services .block .label {
+  font-weight: 500;
+  font-size: 1.9rem;
+  color: #910508;
+}
+.medical-services .block:hover {
+  background-color: #910508;
+  box-shadow: 4px 4px 16px rgba(0, 0, 0, 0.45);
+}
+.medical-services .block:hover .label {
+  color: #fff;
+}
+
+@media all and (max-width: 68.6875em) {
+  .medical-services .block .label {
+    font-size: 1.4rem;
+  }
+}
+@media all and (max-width: 54.3125em) {
+  .medical-services {
+    grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
+  }
+  .content-wrapper {
+    padding: 3rem 0;
+    margin: 0;
+  }
+  .section-title {
+    text-align: center;
+  }
+}
+@media all and (max-width: 41.8125em) {
+  .content-wrapper {
+    padding: 2.4rem 0;
+  }
+}
+@media all and (max-width: 35.5625em) {
+  .medical-services {
+    grid-template-columns: repeat(auto-fit, minmax(12rem, 1fr));
+    width: 100vw;
+    margin-left: -2rem;
+    border-top: 0 none;
+    border-left: 0 none;
+  }
+  .medical-services .block:nth-child(3),
+  .medical-services .block:nth-child(6) {
+    border-right: 0 none;
+  }
+  .medical-services .block:nth-child(4),
+  .medical-services .block:nth-child(5),
+  .medical-services .block:nth-child(6) {
+    border-bottom: 0 none;
+  }
+  .medical-services .block .label {
+    font-size: 1.2rem;
+  }
+
+  #medical-services .btn {
+    width: 100%;
+  }
+}
+
+.content-wrapper {
+  padding: 2.5rem 0;
+  margin: 1.1rem 0;
+}
+.content-wrapper.extra-pad-top {
+  padding-top: 13rem;
+}
+.content-wrapper.full-height {
+  min-height: 100%;
+}
+.content-wrapper.v-center {
+  display: flex;
+  align-items: center;
+}
+
+.section-title {
+  font-weight: bold;
+  font-size: clamp(2.4rem, 2vw + 1rem, 3.6rem);
+  margin-bottom: 1em;
+  color: #232021;
+  line-height: 1.4;
+}
+.section-title.medium {
+  font-size: clamp(1.9rem, 1.6vw + 1rem, 3rem);
+}
+.section-title.small {
+  font-size: clamp(1.8rem, 1.2vw + 1rem, 2.4rem);
+  font-weight: 500;
+  margin-bottom: 0.65em;
+}
+.section-title.tiny {
+  font-size: 1.6rem;
+  font-weight: 500;
+  margin-bottom: 0.65em;
+}
+.section-title.no-margin {
+  margin: 0;
+}
+
+.spacer {
+  height: 3.3rem;
+}

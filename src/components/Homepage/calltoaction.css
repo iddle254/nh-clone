@@ -1,0 +1,103 @@
+.about-hospital .image-block__content .section-title {
+  margin-bottom: 0.6em;
+}
+
+/*---------- IMAGE BLOCK ----------*/
+.image-block {
+  display: flex;
+  flex-wrap: wrap;
+  border-radius: 1.5rem;
+  overflow: hidden;
+}
+.image-block figure {
+  width: 47%;
+}
+.image-block figure img {
+  height: 100%;
+  -o-object-fit: cover;
+  object-fit: cover;
+  -o-object-position: center;
+  object-position: center;
+}
+.image-block__content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex: 1;
+  background-color: rgba(245, 233, 233, 0.7);
+  padding: 4.8rem 7.2rem;
+  min-width: 0;
+  width: 100%;
+}
+.image-block__content--brown {
+  background-color: #910508;
+  color: #fff;
+}
+.image-block__content .section-title {
+  text-align: left;
+}
+.image-block__content i {
+  font-size: var(--text-9xl);
+  color: #c07515;
+  margin-bottom: 1.5rem;
+}
+.image-block--reverse {
+  flex-direction: row-reverse;
+}
+.image-block--wide {
+  flex-direction: column;
+}
+.image-block--wide figure {
+  width: 100%;
+}
+.image-block--wide .image-block__content {
+  padding: 2.9rem 3.9rem;
+}
+
+@media all and (max-width: 68.6875em) {
+  .image-block__content {
+    padding: 4rem 5rem;
+  }
+  .image-block--wide .image-block__content {
+    padding: 3rem;
+  }
+}
+@media all and (max-width: 54.3125em) {
+  .image-block__content {
+    padding: 3rem;
+  }
+}
+@media all and (max-width: 41.8125em) {
+  .image-block {
+    flex-direction: column;
+  }
+  /* .image-block-cta {
+    background: url('./images/cta/home-about-hosi.jpg') no-repeat center center;
+    background-size: cover;
+  } */
+  .image-block__content {
+    padding: 2.4rem;
+    text-align: center;
+  }
+  .image-block__content .section-title {
+    text-align: center;
+  }
+  .image-block__content .btn {
+    margin: 0 auto;
+  }
+  .image-block--wide .image-block__content {
+    padding: 2.4rem;
+  }
+}
+@media all and (max-width: 35.5625em) {
+  .image-block__content {
+    padding: 1.9rem;
+  }
+  .image-block__content .btn {
+    width: 100%;
+  }
+
+  .image-block--wide .image-block__content {
+    padding: 1.9rem;
+  }
+}
